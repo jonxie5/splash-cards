@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <BsNavbar />
-      <img src={logo} style={{ width: 30, height: 30 }} className="App-logo mb-3" alt="logo" />
+      <img src={logo} style={{ width: 30, height: 30 }} className="App-logo mb-2 pb-1" alt="logo" />
       <SplashCard height={250} />
     </div>
   );
