@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* button .diceLinkButton a:link, a:visited, a:hover, a:active {
+button .diceLinkButton .btn-link { */
+button {
+  text-decoration: none;
+}
