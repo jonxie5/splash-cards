@@ -24,7 +24,7 @@ const BsNavbar = () => {
                         <div className="container-fluid">
                             <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <Button className='diceLinkButton p-0' variant="link" color='transparent' type='submit' style={{color:'white'}}>
+                            <Button className='diceLinkButton p-0' variant="link" color='transparent' type='submit' style={{color:'white', textDecoration: 'none'}} >
                                 🎲
                             </Button>
                             </form>

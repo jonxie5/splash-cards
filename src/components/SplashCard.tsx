@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from 'react'
 import {
   Card,
   CardActionArea,
@@ -8,15 +8,17 @@ import {
   IconButton,
   Typography,
   Grid
- } from '@mui/material';
+ } from '@mui/material'
 // ♡ 🪶
-let idx=3;
-let height=250;
+let idx=3
+let height=250
 
 const SplashCard = ({idx=0, filter='earth', height=175 }) => {
-  return (
 
+  return (
     <Card variant='outlined' sx={{ maxWidth: '100%' }}>
+      <div style={{ position: "relative" }}>
+
       <CardActionArea>
       <CardMedia
         sx={{ height:  [height] }}
@@ -25,13 +27,14 @@ const SplashCard = ({idx=0, filter='earth', height=175 }) => {
         title={filter}
       />
       <CardContent>
-          <Typography component="div">
+          <Typography component="div" style={{position: "absolute", color: "white",top: 5,left: "50%",transform: "translateX(-50%)",}}>
             {filter}
           </Typography>
       </CardContent>
       </CardActionArea>
+      </div>
     </Card>
-  );
+  )
 }
 
-export default SplashCard;
+export default SplashCard
